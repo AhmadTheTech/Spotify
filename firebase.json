@@ -1,0 +1,1 @@
+{"flutter":{"platforms":{"android":{"default":{"projectId":"spotify-5960c","appId":"1:86802494139:android:0087314a6960817924ef9e","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"spotify-5960c","configurations":{"android":"1:86802494139:android:0087314a6960817924ef9e","ios":"1:86802494139:ios:df85922ee7a1171024ef9e"}}}}}}
