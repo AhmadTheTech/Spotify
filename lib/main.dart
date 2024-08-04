@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:flutter/services.dart';
+
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -10,7 +10,6 @@ import 'package:spotify_app/screens/splash.dart';
 void main() async{
     WidgetsFlutterBinding.ensureInitialized();
     await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-    SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
   runApp(const Spotify());
 }
 
